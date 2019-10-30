@@ -1,0 +1,12 @@
+{
+  "title": "The Tulip marketing agency",
+  "description": "Full digital marketing services. We help build brands, find future loyal customers for you, and help keep your business relevant online.",
+  "author": "https://njegos.dev",
+  "header": "We make your brand stand out",
+  "header-p1": "At The Tulip, we offer full digital marketing services which will greatly boost your brand’s online presence.",
+  "header-p2": "We help build brands, find future loyal customers for you, and help keep your business relevant online.",
+  "notfound": {
+    "header": "NOT FOUND",
+    "description": "You just hit a route that doesn't exist... the sadness."
+  }
+}
