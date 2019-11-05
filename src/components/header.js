@@ -1,25 +1,35 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import Language from './language'
 import Logo from './logo'
+import Nav from './nav'
 import Hamburger from './hamburger'
 
-export default ({ siteTitle }) => (
-  <Header>
-    <Logo />
-    <Language />
-    <Hamburger />
-  </Header>
-)
+export default class SiteHeader extends React.Component {
+  state = {
+    active: false,
+  }
+  toggleClassOnClick = () => this.setState({ active: !this.state.active })
+
+  render = () => (
+    <Header>
+      <Logo />
+      <Hamburger toggleClassOnClick={this.toggleClassOnClick} />
+      <Nav setClass={this.state.active ? '' : 'hidden'} />
+    </Header>
+  )
+}
 
 const Header = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100px;
+  margin: 0 auto;
+  padding: 0 100px;
   text-decoration: none;
-  > * {
-    width: calc(100% / 3);
+  @media screen and (max-width: 768px) {
+    padding: 0 10px;
+    width: 100%;
   }
 `

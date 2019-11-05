@@ -36,17 +36,22 @@ const LangBar = styled.div`
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
   display: inline-block;
-  margin-left: calc(50% - 75px);
-
+  margin-right: 5px;
   button {
     background-color: #f97c7c;
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 600;
     height: 100%;
-    padding: 15px 8px;
-    width: 70px;
+    padding: 10px 0;
+    width: 55px;
+  }
+  @media screen and (max-width: 768px) {
+    button {
+      font-size: 12px;
+      width: 40px;
+    }
   }
 `

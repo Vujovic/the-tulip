@@ -26,11 +26,13 @@ const Logo = styled(Link)`
   display: flex;
   justify-content: center;
   align-items: center;
-  :hover {
-    opacity: 0.7;
-  }
-
   svg {
     width: 70px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+    svg {
+      width: 60px;
+    }
   }
 `

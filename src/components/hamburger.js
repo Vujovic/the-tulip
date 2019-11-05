@@ -1,9 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 
-export default () => (
+export default props => (
   <Hamburger>
-    <button>
+    <button
+      onClick={props.toggleClassOnClick}
+      aria-label="Navigation menu"
+      type="button"
+    >
       <svg
         width="31"
         height="21"
@@ -37,8 +41,18 @@ const Hamburger = styled.div`
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
     border: none;
     border-radius: 100px;
-    margin-left: calc(50% - 25px);
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 50px;
     width: 56px;
     height: 56px;
+    @media screen and (max-width: 1280px) {
+      display: inline-block;
+    }
+    @media screen and (max-width: 768px) {
+      right: 10px;
+    }
   }
 `
