@@ -2,12 +2,14 @@ import React from 'react'
 import { createGlobalStyle } from 'styled-components'
 
 import Header from './header'
+import Footer from './footer'
 
 export default ({ children }) => (
   <>
     <GlobalStyle />
     <Header />
     <main>{children}</main>
+    <Footer />
   </>
 )
 
@@ -21,6 +23,15 @@ const GlobalStyle = createGlobalStyle`
   body {
     color: #434343;
     font-family: 'Lato', sans-serif;
+    @media screen and (max-width: 768px) {
+      overflow-x: hidden;
+      h1, h2 {
+        font-size: 36px
+      }
+      h3 {
+        font-size: 18px;
+      }
+    }
   }
 
   section {
@@ -30,8 +41,15 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
-  h1 {
+  h1, h2 {
     font-size: 48px;
+  }
+
+  h3 {
+    color: #595959;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px;
   }
 
   li {
@@ -47,8 +65,9 @@ const GlobalStyle = createGlobalStyle`
     @media screen and (max-width: 1280px) {
       right: -100%;
     }
-    @media screen and (max-width: 769px) {
+    @media screen and (max-width: 768px) {
       left: -100%;
+      overflow-x: hidden;
     }
   }
 `

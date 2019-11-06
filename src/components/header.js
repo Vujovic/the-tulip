@@ -30,6 +30,6 @@ const Header = styled.header`
   text-decoration: none;
   @media screen and (max-width: 768px) {
     padding: 0 10px;
-    width: 100%;
+    width: 90%;
   }
 `

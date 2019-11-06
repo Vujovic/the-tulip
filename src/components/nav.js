@@ -1,45 +1,42 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
-import { FormattedMessage, useIntl } from 'gatsby-plugin-intl'
+import { FormattedMessage } from 'gatsby-plugin-intl'
 
 import Language from './language'
 
-export default props => {
-  const intl = useIntl()
-  return (
-    <Nav className={props.setClass}>
-      <ul className="nav-menu">
-        <li>
-          <Link to="/">
-            <FormattedMessage id="home" />
-          </Link>
-        </li>
-        <li>
-          <Link to="/">
-            <FormattedMessage id="services" />
-          </Link>
-        </li>
-        <li>
-          <Link to="/">
-            <FormattedMessage id="team" />
-          </Link>
-        </li>
-        <li>
-          <Link to="/">
-            <FormattedMessage id="contact" />
-          </Link>
-        </li>
-        <li>
-          <Link to="/">
-            <FormattedMessage id="blog" />
-          </Link>
-        </li>
-      </ul>
-      <Language />
-    </Nav>
-  )
-}
+export default props => (
+  <Nav className={props.setClass}>
+    <ul className="nav-menu">
+      <li>
+        <Link to="/">
+          <FormattedMessage id="home" />
+        </Link>
+      </li>
+      <li>
+        <Link to="/">
+          <FormattedMessage id="services" />
+        </Link>
+      </li>
+      <li>
+        <Link to="/">
+          <FormattedMessage id="team" />
+        </Link>
+      </li>
+      <li>
+        <Link to="/">
+          <FormattedMessage id="contact" />
+        </Link>
+      </li>
+      <li>
+        <Link to="/">
+          <FormattedMessage id="blog" />
+        </Link>
+      </li>
+    </ul>
+    <Language />
+  </Nav>
+)
 
 const Nav = styled.nav`
   display: flex;
