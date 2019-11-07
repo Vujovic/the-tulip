@@ -1,42 +1,52 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
-import { FormattedMessage } from 'gatsby-plugin-intl'
+import { useIntl, FormattedMessage } from 'gatsby-plugin-intl'
 
 import Language from './language'
 
-export default props => (
-  <Nav className={props.setClass}>
-    <ul className="nav-menu">
-      <li>
-        <Link to="/" onClick={props.toggleClassOnClick}>
-          <FormattedMessage id="home" />
-        </Link>
-      </li>
-      <li>
-        <Link to="/en/#services" onClick={props.toggleClassOnClick}>
-          <FormattedMessage id="services" />
-        </Link>
-      </li>
-      <li>
-        <Link to="/en/#team" onClick={props.toggleClassOnClick}>
-          <FormattedMessage id="team" />
-        </Link>
-      </li>
-      <li>
-        <Link to="/en/#contact" onClick={props.toggleClassOnClick}>
-          <FormattedMessage id="contact" />
-        </Link>
-      </li>
-      <li>
-        <Link to="/blog" onClick={props.toggleClassOnClick}>
-          <FormattedMessage id="blog" />
-        </Link>
-      </li>
-    </ul>
-    <Language />
-  </Nav>
-)
+export default props => {
+  const intl = useIntl()
+  return (
+    <Nav className={props.setClass}>
+      <ul className="nav-menu">
+        <li>
+          <Link
+            to={`/${intl.formatMessage({ id: 'lang' })}/`}
+            onClick={props.toggleClassOnClick}
+          >
+            <FormattedMessage id="home" />
+          </Link>
+        </li>
+        <li>
+          <Link
+            to={`/${intl.formatMessage({ id: 'lang' })}/#services`}
+            onClick={props.toggleClassOnClick}
+          >
+            <FormattedMessage id="services" />
+          </Link>
+        </li>
+        <li>
+          <Link
+            to={`/${intl.formatMessage({ id: 'lang' })}/#team`}
+            onClick={props.toggleClassOnClick}
+          >
+            <FormattedMessage id="team" />
+          </Link>
+        </li>
+        <li>
+          <Link
+            to={`/${intl.formatMessage({ id: 'lang' })}/#contact`}
+            onClick={props.toggleClassOnClick}
+          >
+            <FormattedMessage id="contact" />
+          </Link>
+        </li>
+      </ul>
+      <Language />
+    </Nav>
+  )
+}
 
 const Nav = styled.nav`
   display: flex;

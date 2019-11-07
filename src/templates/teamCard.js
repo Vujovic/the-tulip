@@ -20,10 +20,16 @@ export default () => (
         href="https://bojandesign.com"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Personal website link"
       >
         <IconSite />
       </a>
-      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://linkedin.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="LinkedIn profile"
+      >
         <IconLinkedin />
       </a>
     </div>
@@ -84,6 +90,15 @@ const Card = styled.div`
     }
     p {
       font-size: 14px;
+    }
+    .social {
+      a {
+        display: inline-block;
+        svg {
+          width: 50px;
+          height: 45px;
+        }
+      }
     }
   }
 `

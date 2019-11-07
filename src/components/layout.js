@@ -41,8 +41,12 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
-  h1, h2 {
+  h1 {
     font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
   }
 
   h3 {
@@ -66,7 +70,7 @@ const GlobalStyle = createGlobalStyle`
       right: -100%;
     }
     @media screen and (max-width: 768px) {
-      left: -100%;
+      left: -105%;
       overflow-x: hidden;
     }
   }

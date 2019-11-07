@@ -55,6 +55,7 @@ export default () => (
         </label>
         <textarea
           name="message"
+          id="message"
           rows="6"
           placeholder="Tell us a bit about your project..."
           required
@@ -84,7 +85,7 @@ const Contact = styled.section`
       font-size: 18px;
       text-align: justify;
       padding: 80px 0;
-      width: 40%;
+      width: 35%;
       input,
       textarea {
         border: 1px solid #d3d3d3;
@@ -104,9 +105,19 @@ const Contact = styled.section`
       }
     }
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     .form {
       flex-direction: column;
+      > svg {
+        width: 50%;
+      }
+      form {
+        width: 75%;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .form {
       > svg {
         display: none;
       }

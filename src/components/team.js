@@ -33,6 +33,6 @@ const Team = styled.section`
   .cards {
     display: flex;
     flex-wrap: nowrap;
-    padding: 75px 0;
+    padding: 75px 0 5px 0;
   }
 `
