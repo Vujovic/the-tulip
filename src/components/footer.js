@@ -15,7 +15,7 @@ export default () => (
       <h5>Services we provide: </h5>
       <div className="urls">
         <Link to="/seo">
-          <Triangle /> Seo Services
+          <Triangle /> SEO Services
         </Link>
         <Link to="/seo">
           <Triangle /> Design

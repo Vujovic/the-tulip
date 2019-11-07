@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Hero from '../components/hero'
 import Team from '../components/team'
+import Contact from '../components/contact'
 
 export default () => {
   const intl = useIntl()
@@ -13,6 +14,7 @@ export default () => {
       <SEO lang={Intl.locale} title={intl.formatMessage({ id: 'title' })} />
       <Hero />
       <Team />
+      <Contact />
     </Layout>
   )
 }

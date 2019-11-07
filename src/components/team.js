@@ -5,7 +5,7 @@ import ScrollContainer from 'react-indiana-drag-scroll'
 import TeamCard from '../templates/teamCard'
 
 export default () => (
-  <Team>
+  <Team id="team">
     <h2>OUR TEAM</h2>
     <h3>
       Meet our passionate team of professionals who are always ready to help you

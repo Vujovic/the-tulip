@@ -9,27 +9,27 @@ export default props => (
   <Nav className={props.setClass}>
     <ul className="nav-menu">
       <li>
-        <Link to="/">
+        <Link to="/" onClick={props.toggleClassOnClick}>
           <FormattedMessage id="home" />
         </Link>
       </li>
       <li>
-        <Link to="/">
+        <Link to="/en/#services" onClick={props.toggleClassOnClick}>
           <FormattedMessage id="services" />
         </Link>
       </li>
       <li>
-        <Link to="/">
+        <Link to="/en/#team" onClick={props.toggleClassOnClick}>
           <FormattedMessage id="team" />
         </Link>
       </li>
       <li>
-        <Link to="/">
+        <Link to="/en/#contact" onClick={props.toggleClassOnClick}>
           <FormattedMessage id="contact" />
         </Link>
       </li>
       <li>
-        <Link to="/">
+        <Link to="/blog" onClick={props.toggleClassOnClick}>
           <FormattedMessage id="blog" />
         </Link>
       </li>

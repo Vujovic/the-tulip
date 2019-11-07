@@ -15,7 +15,10 @@ export default class SiteHeader extends React.Component {
     <Header>
       <Logo />
       <Hamburger toggleClassOnClick={this.toggleClassOnClick} />
-      <Nav setClass={this.state.active ? '' : 'hidden'} />
+      <Nav
+        setClass={this.state.active ? '' : 'hidden'}
+        toggleClassOnClick={this.toggleClassOnClick}
+      />
     </Header>
   )
 }
