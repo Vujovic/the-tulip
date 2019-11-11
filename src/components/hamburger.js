@@ -16,18 +16,18 @@ export default props => (
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M30.1133 3H0.113281V0H30.1133V3Z"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M30.1133 12H0.113281V9H30.1133V12Z"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M30.1133 21H0.113281V18H30.1133V21Z"
         />
       </svg>
@@ -43,11 +43,12 @@ const Hamburger = styled.div`
     border-radius: 100px;
     cursor: pointer;
     display: none;
-    position: absolute;
-    top: 10px;
+    position: fixed;
+    top: 20px;
     right: 50px;
     width: 56px;
     height: 56px;
+    z-index: 100;
     @media screen and (max-width: 1280px) {
       display: inline-block;
     }

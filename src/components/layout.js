@@ -24,7 +24,6 @@ const GlobalStyle = createGlobalStyle`
     color: #434343;
     font-family: 'Lato', sans-serif;
     @media screen and (max-width: 768px) {
-      overflow-x: hidden;
       h1, h2 {
         font-size: 36px
       }

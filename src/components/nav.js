@@ -64,13 +64,14 @@ const Nav = styled.nav`
     min-width: 30%;
     height: 100%;
     position: fixed;
-    top: 100px;
+    top: 0;
     right: 0;
     transition: all 0.5s;
     .nav-menu {
       flex-direction: column;
+      margin-top: 25%;
       li {
-        margin: 30px 0;
+        margin: 50px 0;
         text-align: center;
       }
     }

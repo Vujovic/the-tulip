@@ -95,8 +95,8 @@ const Card = styled.div`
       a {
         display: inline-block;
         svg {
-          width: 50px;
-          height: 45px;
+          width: 30px;
+          height: 30px;
         }
       }
     }

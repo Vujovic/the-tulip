@@ -1,0 +1,20 @@
+[
+  {
+    "image": "../images/team/milan.png",
+    "name": "Milan Mandic",
+    "title1": "Founder",
+    "title2": "CEO",
+    "description": "milanDesc",
+    "website": false,
+    "linkedin": "https://linkedin.com"
+  },
+  {
+    "image": "../images/team/cobain.png",
+    "name": "Milan Mandic",
+    "title1": "Title",
+    "title2": "Title2",
+    "description": "cobainDesc",
+    "website": false,
+    "linkedin": "https://linkedin.com"
+  }
+]

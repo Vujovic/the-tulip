@@ -19,12 +19,12 @@ export default () => (
       d="M312.955 430.27l6.677-27.46 33.489-20.94 28.293-11.701 31.47-20.219 32.473-4.627 37.956 9.229 40.613-30.517 35.321-26.958-44.328 182.302-201.964-49.109z"
       fill="#F2F2F2"
     />
-    <g opacity=".2" stroke="#00F" stroke-miterlimit="10">
+    <g opacity=".2" stroke="#00F" strokeMiterlimit="10">
       <path opacity=".2" d="M321.466 398.361l-.459 1.888" />
       <path
         opacity=".2"
         d="M320.184 403.633l-4.524 18.607"
-        stroke-dasharray="10.75 10.75"
+        strokeDasharray="10.75 10.75"
       />
       <path
         opacity=".2"
@@ -33,7 +33,7 @@ export default () => (
       <path
         opacity=".2"
         d="M356.08 383.862l-11.001 45.24"
-        stroke-dasharray="12.5 12.5"
+        strokeDasharray="12.5 12.5"
       />
       <path
         opacity=".2"
@@ -42,7 +42,7 @@ export default () => (
       <path
         opacity=".2"
         d="M388.148 372.74l-15.383 63.263"
-        stroke-dasharray="11.48 11.48"
+        strokeDasharray="11.48 11.48"
       />
       <path
         opacity=".2"
@@ -51,7 +51,7 @@ export default () => (
       <path
         opacity=".2"
         d="M423.37 353.629l-21.714 89.301"
-        stroke-dasharray="12.07 12.07"
+        strokeDasharray="12.07 12.07"
       />
       <path
         opacity=".2"
@@ -60,7 +60,7 @@ export default () => (
       <path
         opacity=".2"
         d="M455.832 348.877l-24.631 101.299"
-        stroke-dasharray="11.7 11.7"
+        strokeDasharray="11.7 11.7"
       />
       <path
         opacity=".2"
@@ -69,7 +69,7 @@ export default () => (
       <path
         opacity=".2"
         d="M483.879 355.697l-24.631 101.298"
-        stroke-dasharray="11.7 11.7"
+        strokeDasharray="11.7 11.7"
       />
       <path
         opacity=".2"
@@ -78,7 +78,7 @@ export default () => (
       <path
         opacity=".2"
         d="M522.477 324.724l-33.892 139.387"
-        stroke-dasharray="11.81 11.81"
+        strokeDasharray="11.81 11.81"
       />
       <path
         opacity=".2"
@@ -87,7 +87,7 @@ export default () => (
       <path
         opacity=".2"
         d="M558.931 298.128l-42.024 172.827"
-        stroke-dasharray="12.06 12.06"
+        strokeDasharray="12.06 12.06"
       />
       <path opacity=".2" d="M516.445 472.854l-.459 1.888" />
     </g>
@@ -134,8 +134,8 @@ export default () => (
     <path
       d="M448.757 197.283l90.953 31.233"
       stroke="#F97C7C"
-      stroke-width="2"
-      stroke-miterlimit="10"
+      strokeWidth="2"
+      strokeMiterlimit="10"
     />
     <path
       d="M451.414 204.561l1.3-.693-3.424-6.4 6.634-2.947-.599-1.346-8.079 3.591 4.168 7.795zM533.141 232.626l-.599-1.345 6.633-2.947-3.423-6.4 1.3-.694 4.167 7.797-8.078 3.589zM494.665 220.984a8.096 8.096 0 10-.863-16.169 8.096 8.096 0 00.863 16.169zM327.029 161.212l-30.356 1.621a106.327 106.327 0 01-1.932-36.194l30.356-1.621a65.215 65.215 0 001.932 36.194zM344.735 178.676l30.356-1.62a106.326 106.326 0 00-1.932-36.194l-30.356 1.621a65.212 65.212 0 011.932 36.193zM319.29 240.472l30.356-1.62a106.326 106.326 0 00-1.933-36.194l-30.356 1.621a65.221 65.221 0 011.933 36.193zM694.2 278.495l-95.431-6.89-.318 4.405 95.431 6.889.318-4.404zM693.087 293.91l-95.431-6.889-.317 4.405 95.43 6.889.318-4.405zM691.974 309.326l-95.431-6.889-.318 4.404 95.431 6.89.318-4.405zM690.861 324.742l-95.43-6.889-.318 4.404 95.43 6.889.318-4.404zM689.749 340.158l-95.431-6.89-.318 4.405 95.431 6.889.318-4.404zM665.826 354.665l-49.918-3.604-1.271 17.618 49.917 3.604 1.272-17.618zM356.104 383.759a5.886 5.886 0 007.109-4.33 5.886 5.886 0 00-4.327-7.111 5.886 5.886 0 00-7.109 4.33 5.886 5.886 0 004.327 7.111zM388.095 372.957a5.886 5.886 0 007.109-4.33 5.887 5.887 0 00-4.327-7.112 5.887 5.887 0 00-7.109 4.331 5.886 5.886 0 004.327 7.111zM423.361 353.661a5.887 5.887 0 007.11-4.33 5.887 5.887 0 00-4.327-7.112 5.888 5.888 0 00-2.783 11.442zM455.795 349.026a5.888 5.888 0 002.783-11.442 5.887 5.887 0 00-7.11 4.33 5.887 5.887 0 004.327 7.112zM483.842 355.845a5.886 5.886 0 007.109-4.33 5.885 5.885 0 10-11.436-2.781 5.886 5.886 0 004.327 7.111zM522.449 324.839a5.886 5.886 0 007.109-4.33 5.886 5.886 0 00-4.327-7.111 5.886 5.886 0 00-7.109 4.33 5.886 5.886 0 004.327 7.111zM558.922 298.162a5.886 5.886 0 007.109-4.331 5.886 5.886 0 10-11.436-2.78 5.886 5.886 0 004.327 7.111z"
@@ -144,8 +144,8 @@ export default () => (
     <path
       d="M334.127 215.204l-54.465 223.993M270.886 424.356l271.89 66.112"
       stroke="#F97C7C"
-      stroke-width="2"
-      stroke-miterlimit="10"
+      strokeWidth="2"
+      strokeMiterlimit="10"
     />
     <path
       d="M245.043 572.544l28.483-10.622a106.309 106.309 0 00-12.664-33.961l-28.483 10.622a65.222 65.222 0 0112.664 33.961z"
@@ -388,8 +388,8 @@ export default () => (
       fill="#000"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M594.229 704.004l13.413-7.066a2.14 2.14 0 011.972 0l13.412 7.066c.611.321.986.915.986 1.558v14.132c0 .643-.375 1.237-.986 1.558l-13.412 7.066a2.14 2.14 0 01-1.972 0l-13.413-7.066c-.61-.321-.986-.915-.986-1.558v-14.132c0-.643.376-1.237.986-1.558zm10.291-12a8.902 8.902 0 018.215 0l13.413 7.066c2.542 1.339 4.108 3.814 4.108 6.492v14.132c0 2.678-1.566 5.153-4.108 6.492l-13.413 7.066a8.902 8.902 0 01-8.215 0l-13.413-7.066c-2.541-1.339-4.107-3.814-4.107-6.492v-14.132c0-2.678 1.566-5.153 4.107-6.492l13.413-7.066zM217.229 61.004l13.413-7.066a2.137 2.137 0 011.972 0l13.412 7.066c.61.321.986.915.986 1.558v14.132c0 .643-.376 1.236-.986 1.558l-13.412 7.066a2.137 2.137 0 01-1.972 0l-13.413-7.066c-.61-.322-.986-.915-.986-1.558V62.562c0-.643.376-1.237.986-1.558zm10.291-12a8.902 8.902 0 018.215 0l13.413 7.066c2.542 1.34 4.108 3.814 4.108 6.492v14.132c0 2.678-1.566 5.153-4.108 6.492l-13.413 7.066a8.902 8.902 0 01-8.215 0l-13.413-7.066c-2.541-1.34-4.107-3.814-4.107-6.492V62.562c0-2.678 1.566-5.153 4.107-6.492l13.413-7.066zM620.487 32.096l14.705 46.072 30.976-30.193-45.681-15.879zm6.039 6.195l10.293 32.25 21.683-21.134-31.976-11.116zM105.858 589.272L60 604.63l30.63 30.543 15.228-45.901zm-6.109 6.126l-32.1 10.75 21.44 21.38 10.66-32.13zM59.628 234.019l-7.325-7.325a5.578 5.578 0 00-7.888 7.888l7.325 7.325-7.325 7.325a5.577 5.577 0 107.888 7.888l7.325-7.325 7.325 7.325a5.578 5.578 0 007.888-7.888l-7.325-7.325 7.325-7.325a5.577 5.577 0 10-7.888-7.888l-7.325 7.325zm18.594 3.944c4.045-4.046 4.045-10.604 0-14.65-4.046-4.045-10.605-4.045-14.65 0l-3.944 3.944-3.944-3.944c-4.046-4.045-10.605-4.045-14.65 0-4.045 4.046-4.045 10.604 0 14.65l3.944 3.944-3.944 3.944c-4.045 4.046-4.045 10.604 0 14.65 4.045 4.045 10.604 4.045 14.65 0l3.944-3.944 3.944 3.944c4.045 4.045 10.604 4.045 14.65 0 4.045-4.046 4.045-10.604 0-14.65l-3.944-3.944 3.944-3.944zM795.628 362.74l-7.325-7.325a5.576 5.576 0 00-7.888 0 5.576 5.576 0 000 7.888l7.324 7.325-7.324 7.325a5.578 5.578 0 007.888 7.888l7.325-7.325 7.325 7.325a5.578 5.578 0 007.888-7.888l-7.325-7.325 7.325-7.325a5.578 5.578 0 00-7.888-7.888l-7.325 7.325zm18.594 3.944c4.045-4.046 4.045-10.605 0-14.65-4.046-4.045-10.605-4.045-14.65 0l-3.944 3.944-3.944-3.944c-4.046-4.045-10.605-4.045-14.65 0-4.046 4.045-4.046 10.604 0 14.65l3.944 3.944-3.944 3.944c-4.046 4.045-4.046 10.604 0 14.65 4.045 4.045 10.604 4.045 14.65 0l3.944-3.944 3.944 3.944c4.045 4.045 10.604 4.045 14.65 0 4.045-4.046 4.045-10.605 0-14.65l-3.945-3.944 3.945-3.944z"
       fill="#E7A9A9"
     />
@@ -409,9 +409,9 @@ export default () => (
         y2="391.115"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="gray" stop-opacity=".25" />
-        <stop offset=".535" stop-color="gray" stop-opacity=".12" />
-        <stop offset="1" stop-color="gray" stop-opacity=".1" />
+        <stop stopColor="gray" stopOpacity=".25" />
+        <stop offset=".535" stopColor="gray" stopOpacity=".12" />
+        <stop offset="1" stopColor="gray" stopOpacity=".1" />
       </linearGradient>
       <linearGradient
         id="paint1_linear"
@@ -421,9 +421,9 @@ export default () => (
         y2="7661.95"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="gray" stop-opacity=".25" />
-        <stop offset=".535" stop-color="gray" stop-opacity=".12" />
-        <stop offset="1" stop-color="gray" stop-opacity=".1" />
+        <stop stopColor="gray" stopOpacity=".25" />
+        <stop offset=".535" stopColor="gray" stopOpacity=".12" />
+        <stop offset="1" stopColor="gray" stopOpacity=".1" />
       </linearGradient>
       <linearGradient
         id="paint2_linear"
@@ -433,9 +433,9 @@ export default () => (
         y2="7153.89"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="gray" stop-opacity=".25" />
-        <stop offset=".535" stop-color="gray" stop-opacity=".12" />
-        <stop offset="1" stop-color="gray" stop-opacity=".1" />
+        <stop stopColor="gray" stopOpacity=".25" />
+        <stop offset=".535" stopColor="gray" stopOpacity=".12" />
+        <stop offset="1" stopColor="gray" stopOpacity=".1" />
       </linearGradient>
       <linearGradient
         id="paint3_linear"
@@ -445,9 +445,9 @@ export default () => (
         y2="6246.36"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="gray" stop-opacity=".25" />
-        <stop offset=".535" stop-color="gray" stop-opacity=".12" />
-        <stop offset="1" stop-color="gray" stop-opacity=".1" />
+        <stop stopColor="gray" stopOpacity=".25" />
+        <stop offset=".535" stopColor="gray" stopOpacity=".12" />
+        <stop offset="1" stopColor="gray" stopOpacity=".1" />
       </linearGradient>
       <linearGradient
         id="paint4_linear"
@@ -457,9 +457,9 @@ export default () => (
         y2="6028.35"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="gray" stop-opacity=".25" />
-        <stop offset=".535" stop-color="gray" stop-opacity=".12" />
-        <stop offset="1" stop-color="gray" stop-opacity=".1" />
+        <stop stopColor="gray" stopOpacity=".25" />
+        <stop offset=".535" stopColor="gray" stopOpacity=".12" />
+        <stop offset="1" stopColor="gray" stopOpacity=".1" />
       </linearGradient>
       <linearGradient
         id="paint5_linear"
@@ -469,9 +469,9 @@ export default () => (
         y2="6349.09"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="gray" stop-opacity=".25" />
-        <stop offset=".535" stop-color="gray" stop-opacity=".12" />
-        <stop offset="1" stop-color="gray" stop-opacity=".1" />
+        <stop stopColor="gray" stopOpacity=".25" />
+        <stop offset=".535" stopColor="gray" stopOpacity=".12" />
+        <stop offset="1" stopColor="gray" stopOpacity=".1" />
       </linearGradient>
       <linearGradient
         id="paint6_linear"
@@ -481,9 +481,9 @@ export default () => (
         y2="4890.82"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="gray" stop-opacity=".25" />
-        <stop offset=".535" stop-color="gray" stop-opacity=".12" />
-        <stop offset="1" stop-color="gray" stop-opacity=".1" />
+        <stop stopColor="gray" stopOpacity=".25" />
+        <stop offset=".535" stopColor="gray" stopOpacity=".12" />
+        <stop offset="1" stopColor="gray" stopOpacity=".1" />
       </linearGradient>
       <linearGradient
         id="paint7_linear"
@@ -493,9 +493,9 @@ export default () => (
         y2="3636.12"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="gray" stop-opacity=".25" />
-        <stop offset=".535" stop-color="gray" stop-opacity=".12" />
-        <stop offset="1" stop-color="gray" stop-opacity=".1" />
+        <stop stopColor="gray" stopOpacity=".25" />
+        <stop offset=".535" stopColor="gray" stopOpacity=".12" />
+        <stop offset="1" stopColor="gray" stopOpacity=".1" />
       </linearGradient>
       <linearGradient
         id="paint8_linear"
@@ -505,9 +505,9 @@ export default () => (
         y2="7519.25"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="gray" stop-opacity=".45" />
-        <stop offset=".535" stop-color="gray" stop-opacity=".24" />
-        <stop offset="1" stop-color="gray" stop-opacity=".2" />
+        <stop stopColor="gray" stopOpacity=".45" />
+        <stop offset=".535" stopColor="gray" stopOpacity=".24" />
+        <stop offset="1" stopColor="gray" stopOpacity=".2" />
       </linearGradient>
       <linearGradient
         id="paint9_linear"
@@ -517,9 +517,9 @@ export default () => (
         y2="107854"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="gray" stop-opacity=".25" />
-        <stop offset=".54" stop-color="gray" stop-opacity=".12" />
-        <stop offset="1" stop-color="gray" stop-opacity=".1" />
+        <stop stopColor="gray" stopOpacity=".25" />
+        <stop offset=".54" stopColor="gray" stopOpacity=".12" />
+        <stop offset="1" stopColor="gray" stopOpacity=".1" />
       </linearGradient>
     </defs>
   </svg>

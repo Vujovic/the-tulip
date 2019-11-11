@@ -10,7 +10,7 @@ export default () => {
       <svg
         viewBox="0 0 99 101"
         fill="#FC6C6C"
-        fill-opacity="0.5"
+        fillOpacity="0.5"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path d="M32.0672 80.4733C18.6024 68.1169 0.987783 36.9825 38.2479 11.2956C51.3374 24.9627 68.4266 57.9323 32.0672 80.4733Z" />

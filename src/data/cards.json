@@ -1,0 +1,29 @@
+[
+  {
+    "bg": "#FFEFEF",
+    "icon": "../images/services/seo.png",
+    "title": "seo",
+    "content": "seoContent",
+    "btnColor": "#F97C7C",
+    "key": "seo",
+    "link": "/seo"
+  },
+  {
+    "bg": "#EFFAF5",
+    "icon": "../images/services/design.png",
+    "title": "design",
+    "content": "designContent",
+    "btnColor": "#378663",
+    "key": "design",
+    "link": "/design"
+  },
+  {
+    "bg": "#FDF5FF",
+    "icon": "../images/services/seo.png",
+    "title": "social",
+    "content": "socialContent",
+    "btnColor": "#A354B7",
+    "key": "social",
+    "link": "/social-media-marketing"
+  }
+]

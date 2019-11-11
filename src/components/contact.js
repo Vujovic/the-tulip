@@ -20,7 +20,7 @@ export default () => (
         data-netlify-honeypot="bot-field"
       >
         <input type="hidden" name="form-name" value="contact" />
-        <label for="name">
+        <label htmlFor="name">
           Full name <span style={{ color: 'red' }}>*</span>
         </label>
         <input
@@ -30,7 +30,7 @@ export default () => (
           placeholder="Enter your full name..."
           required
         />
-        <label for="email">
+        <label htmlFor="email">
           Email address <span style={{ color: 'red' }}>*</span>
         </label>
         <input
@@ -40,7 +40,7 @@ export default () => (
           placeholder="Enter your business email..."
           required
         />
-        <label for="subject">
+        <label htmlFor="subject">
           Subject <span style={{ color: 'red' }}>*</span>
         </label>
         <input
@@ -50,7 +50,7 @@ export default () => (
           placeholder="Enter the subject of your message..."
           required
         />
-        <label for="message">
+        <label htmlFor="message">
           Message <span style={{ color: 'red' }}>*</span>
         </label>
         <textarea

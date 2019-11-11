@@ -12,7 +12,7 @@ export default () => {
   const intl = useIntl()
   return (
     <Layout>
-      <SEO lang={Intl.locale} title={intl.formatMessage({ id: 'title' })} />
+      <SEO lang={Intl.locale} title={intl.formatMessage({ id: 'home' })} />
       <Hero />
       <Services />
       <Team />

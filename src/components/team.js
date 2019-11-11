@@ -1,17 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
 import ScrollContainer from 'react-indiana-drag-scroll'
+import { FormattedMessage } from 'gatsby-plugin-intl'
 
 import TeamCard from '../templates/teamCard'
 
 export default () => (
   <Team id="team">
-    <h2>OUR TEAM</h2>
+    <h2>
+      <FormattedMessage id="ourTeam" />
+    </h2>
     <h3>
-      Meet our passionate team of professionals who are always ready to help you
-      achieve your goals
+      <FormattedMessage id="ourTeamDescription" />
     </h3>
-    <ScrollContainer className="cards">
+    <ScrollContainer nativeMobileScroll={false} className="cards">
       <TeamCard />
       <TeamCard />
       <TeamCard />
