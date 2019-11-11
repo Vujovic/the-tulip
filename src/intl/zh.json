@@ -21,6 +21,53 @@
   "socialContent": "社交媒体有助于增加网站访问量，增加销售量，帮助建立可能使用您产品的受众群体以及更多其他功能。 我们可以通过设计和升级您的个人资料页面，创建相关帖子来管理您的社交媒体。",
   "ourTeam": "我们的队伍",
   "ourTeamDescription": "认识我们充满激情的专业团队，他们随时准备帮助您实现目标",
+  "milan": {
+    "name": "Milan Mandic",
+    "title1": "CEO,",
+    "title2": "创办人",
+    "description": "Empty."
+  },
+  "bella": {
+    "name": "Bella Summer",
+    "title1": "CTO,",
+    "title2": "客户关系经理",
+    "description": "Empty."
+  },
+  "bojan": {
+    "name": "Bojan Smiljanic",
+    "title1": "工业设计师,",
+    "title2": "众筹专家",
+    "description": "Bojan是产品设计师近15年，曾与许多客户和公司合作，提供概念性和完整的产品开发服务，为日常产品提供新鲜的解决方案。"
+  },
+  "njegos": {
+    "name": "Njegos Vujovic",
+    "title1": "Web开发人员,",
+    "title2": "UX / UI设计器",
+    "description": "具有代理机构的现场和远程工作经验，曾为初创公司提供咨询，曾为企业和消费者使用数字产品。 Njegos凭借在大型和小型团队中独自工作的经验，非常适合任何Web项目。"
+  },
+  "cobain": {
+    "name": "Kurt Cobain",
+    "title1": "客户服务经理,",
+    "title2": "人力资源",
+    "description": "Empty."
+  },
+  "dusan": {
+    "name": "Dusan Copic",
+    "title1": "网络营销协调员,",
+    "title2": "Web开发人员",
+    "description": "作为一名经验丰富的网络营销协调员，Dusan在西方市场上有丰富的经验。 凭借营销，SEO和网站开发的技能和知识，Dusan可以成为任何想要使自己的品牌脱颖而出的人的巨大资产。"
+  },
+  "contactUs": "联系我们",
+  "contactDescription": "对我们提供的产品感兴趣？ 给我们发送电子邮件，我们会尽快回复您！",
+  "formName": "全名",
+  "formNamePlaceholder": "输入您的全名...",
+  "formEmail": "电子邮件地址",
+  "formEmailPlaceholder": "输入您的公司电子邮件...",
+  "formSubject": "学科",
+  "formSubjectPlaceholder": "输入邮件主题...",
+  "formMessage": "信息",
+  "formMessagePlaceholder": "告诉我们您的项目...",
+
   "notfound": {
     "header": "NOT FOUND",
     "description": "You just hit a route that doesn't exist... the sadness."

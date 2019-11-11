@@ -1,20 +1,32 @@
 [
   {
+    "key": "milan",
     "image": "../images/team/milan.png",
-    "name": "Milan Mandic",
-    "title1": "Founder",
-    "title2": "CEO",
-    "description": "milanDesc",
-    "website": false,
-    "linkedin": "https://linkedin.com"
+    "linkUrl": "https://linkedin.com/404"
   },
   {
+    "key": "bella",
+    "image": "../images/team/bella.png",
+    "linkUrl": "https://linkedin.com/404"
+  },
+  {
+    "key": "bojan",
+    "image": "../images/team/bojan.png",
+    "linkUrl": "https://bojandesign.com"
+  },
+  {
+    "key": "njegos",
+    "image": "../images/team/njegos.png",
+    "linkUrl": "https://njegos.dev"
+  },
+  {
+    "key": "cobain",
     "image": "../images/team/cobain.png",
-    "name": "Milan Mandic",
-    "title1": "Title",
-    "title2": "Title2",
-    "description": "cobainDesc",
-    "website": false,
-    "linkedin": "https://linkedin.com"
+    "linkUrl": "https://linkedin.com/404"
+  },
+  {
+    "key": "dusan",
+    "image": "../images/team/dusan.png",
+    "linkUrl": "https://www.linkedin.com/in/dusan-copic-a6299a174/"
   }
 ]

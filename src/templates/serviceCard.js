@@ -39,7 +39,7 @@ export default props => {
   return (
     <Card>
       <div className="icon">
-        <Img draggable="false" fluid={props.image} />
+        <Img draggable={false} fluid={props.image} />
       </div>
       <h3>{props.title}</h3>
       <p>{props.text}</p>

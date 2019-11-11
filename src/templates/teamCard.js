@@ -1,38 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
+import Img from 'gatsby-image'
 
-import IconSite from '../components/svg/site'
-import IconLinkedin from '../components/svg/linkedin'
-
-export default () => (
+export default props => (
   <Card>
-    <div className="image"></div>
-    <h4>Milan Mandic</h4>
-    <h5>Founder,</h5>
-    <h5>CEO</h5>
-    <p>
-      Product designer for almost 15 years, Bojan was involved with many clients
-      and companies providing conceptual and full product development service
-      delivering fresh solutions for everyday products.{' '}
-    </p>
-    <div className="social">
-      <a
-        href="https://bojandesign.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Personal website link"
-      >
-        <IconSite />
-      </a>
-      <a
-        href="https://linkedin.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="LinkedIn profile"
-      >
-        <IconLinkedin />
-      </a>
+    <div className="image">
+      <Img draggable={false} fluid={props.image} />
     </div>
+    <h4>{props.name}</h4>
+    <h5>{props.title1}</h5>
+    <h5>{props.title2}</h5>
+    <p>{props.description}</p>
+    <a href={props.link} target="_blank" rel="noopener noreferrer">
+      Learn more
+    </a>
   </Card>
 )
 
@@ -62,17 +43,13 @@ const Card = styled.div`
   }
   p {
     font-size: 16px;
+    min-height: 135px;
     padding: 20px;
     text-align: justify;
   }
-  .social {
-    svg {
-      margin: 0 5px;
-      transition: all 0.2s;
-      :hover {
-        fill: #cd6565;
-      }
-    }
+  a {
+    font-size: 18px;
+    font-weight: 600;
   }
   @media screen and (max-width: 768px) {
     height: 100%;
@@ -90,15 +67,8 @@ const Card = styled.div`
     }
     p {
       font-size: 14px;
+      min-height: 190px;
+      padding-bottom: 0;
     }
-    .social {
-      a {
-        display: inline-block;
-        svg {
-          width: 30px;
-          height: 30px;
-        }
-      }
-    }
-  }
+    
 `

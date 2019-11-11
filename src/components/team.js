@@ -1,30 +1,57 @@
 import React from 'react'
 import styled from 'styled-components'
 import ScrollContainer from 'react-indiana-drag-scroll'
+import { useStaticQuery, graphql } from 'gatsby'
 import { FormattedMessage } from 'gatsby-plugin-intl'
 
 import TeamCard from '../templates/teamCard'
 
-export default () => (
-  <Team id="team">
-    <h2>
-      <FormattedMessage id="ourTeam" />
-    </h2>
-    <h3>
-      <FormattedMessage id="ourTeamDescription" />
-    </h3>
-    <ScrollContainer nativeMobileScroll={false} className="cards">
-      <TeamCard />
-      <TeamCard />
-      <TeamCard />
-      <TeamCard />
-      <TeamCard />
-      <TeamCard />
-      <TeamCard />
-      <TeamCard />
-    </ScrollContainer>
-  </Team>
-)
+export default () => {
+  const data = useStaticQuery(graphql`
+    query {
+      allTeamJson {
+        edges {
+          node {
+            image {
+              childImageSharp {
+                fluid(quality: 100) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                }
+              }
+            }
+            key
+            linkUrl
+          }
+        }
+      }
+    }
+  `)
+  return (
+    <Team id="team">
+      <h2>
+        <FormattedMessage id="ourTeam" />
+      </h2>
+      <h3>
+        <FormattedMessage id="ourTeamDescription" />
+      </h3>
+      <ScrollContainer nativeMobileScroll={false} className="cards">
+        {data.allTeamJson.edges.map(card => (
+          <TeamCard
+            key={card.node.key}
+            image={card.node.image.childImageSharp.fluid}
+            name={<FormattedMessage id={`${card.node.key}.name`} />}
+            title1={<FormattedMessage id={`${card.node.key}.title1`} />}
+            title2={<FormattedMessage id={`${card.node.key}.title2`} />}
+            description={
+              <FormattedMessage id={`${card.node.key}.description`} />
+            }
+            link={card.node.linkUrl}
+          />
+        ))}
+      </ScrollContainer>
+    </Team>
+  )
+}
 
 const Team = styled.section`
   text-align: center;

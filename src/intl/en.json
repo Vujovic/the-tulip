@@ -8,7 +8,7 @@
   "team": "Team",
   "contact": "Contact",
   "blog": "Blog",
-  "header": "We make your \n brand stand out",
+  "header": "We make your brand stand out",
   "header-p1": "At The Tulip, we offer full digital marketing services which will greatly boost your brand’s online presence and help you achieve your goals.",
   "header-p2": "We help build brands, find future loyal customers for you, and help keep your business relevant online.",
   "bt-contact": "Contact us",
@@ -21,6 +21,53 @@
   "socialContent": "Social Media helps drive traffic to your website, increases sales, helps build an audience who are likely to use your product and so much more. We can manage your social media with designing and upgrading your profile page, creating relevant posts...",
   "ourTeam": "Our Team",
   "ourTeamDescription": "Meet our passionate team of professionals who are always ready to help you achieve your goals",
+  "milan": {
+    "name": "Milan Mandic",
+    "title1": "CEO,",
+    "title2": "Founder",
+    "description": "Empty."
+  },
+  "bella": {
+    "name": "Bella Summer",
+    "title1": "CTO,",
+    "title2": "Client Relationship Manager",
+    "description": "Empty."
+  },
+  "bojan": {
+    "name": "Bojan Smiljanic",
+    "title1": "Industrial Designer,",
+    "title2": "Crowdfunding Specialist",
+    "description": "Product designer for almost 15 years, Bojan was involved with many clients and companies providing conceptual and full product development service delivering fresh solutions for everyday products."
+  },
+  "njegos": {
+    "name": "Njegos Vujovic",
+    "title1": "Web Developer,",
+    "title2": "UX/UI designer",
+    "description": "Experienced with on-site and remote work for agencies, consulted for startups, worked on digital products for business and consumer use alike. With experience working alone, in small and big teams, Njegos is a good fit for any web project."
+  },
+  "cobain": {
+    "name": "Kurt Cobain",
+    "title1": "Client Services Manager,",
+    "title2": "HR",
+    "description": "Empty."
+  },
+  "dusan": {
+    "name": "Dusan Copic",
+    "title1": "Web Marketing Coordinator,",
+    "title2": "Web Developer",
+    "description": "An experienced web marketing coordinator, Dusan has a substantial experience working in the western market. With the skill and knowledge of marketing, SEO and web development, he can be a huge asset for anyone looking to make their brand stand out."
+  },
+  "contactUs": "Contact Us",
+  "contactDescription": "Interested in what we have to offer? Send us an email and we'll get back to you soon!",
+  "formName": "Full name",
+  "formNamePlaceholder": "Enter your full name...",
+  "formEmail": "Email address",
+  "formEmailPlaceholder": "Enter your business email...",
+  "formSubject": "Subject",
+  "formSubjectPlaceholder": "Enter the subject of your message...",
+  "formMessage": "Message",
+  "formMessagePlaceholder": "Tell us a bit about your project...",
+
   "notfound": {
     "header": "NOT FOUND",
     "description": "You just hit a route that doesn't exist... the sadness."

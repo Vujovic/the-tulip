@@ -39,18 +39,15 @@ export default () => {
       </h3>
       <div className="cards">
         {data.allCardsJson.edges.map(card => (
-          <>
-            <Card
-              key={card.node.key}
-              title={<FormattedMessage id={card.node.title} />}
-              text={<FormattedMessage id={card.node.content} />}
-              bg={card.node.bg}
-              btnColor={card.node.btnColor}
-              link={card.node.link}
-              image={card.node.icon.childImageSharp.fluid}
-            />
-            {console.log(card.node.icon.childImageSharp.fluid)}
-          </>
+          <Card
+            key={card.node.key}
+            title={<FormattedMessage id={card.node.title} />}
+            text={<FormattedMessage id={card.node.content} />}
+            bg={card.node.bg}
+            btnColor={card.node.btnColor}
+            link={card.node.link}
+            image={card.node.icon.childImageSharp.fluid}
+          />
         ))}
       </div>
     </Services>
