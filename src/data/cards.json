@@ -2,11 +2,20 @@
   {
     "bg": "#FFEFEF",
     "icon": "../images/services/seo.png",
-    "title": "seo",
-    "content": "seoContent",
-    "btnColor": "#F97C7C",
-    "key": "seo",
-    "link": "/seo"
+    "title": "social",
+    "content": "socialContent",
+    "btnColor": "#DA6D6D",
+    "key": "social",
+    "link": "/social-media-marketing"
+  },
+  {
+    "bg": "#E3F2FF",
+    "icon": "../images/services/webdev.png",
+    "title": "webdev",
+    "content": "webdevContent",
+    "btnColor": "#437B8D",
+    "key": "webdev",
+    "link": "/webdev"
   },
   {
     "bg": "#EFFAF5",
@@ -16,14 +25,5 @@
     "btnColor": "#378663",
     "key": "design",
     "link": "/design"
-  },
-  {
-    "bg": "#FDF5FF",
-    "icon": "../images/services/seo.png",
-    "title": "social",
-    "content": "socialContent",
-    "btnColor": "#A354B7",
-    "key": "social",
-    "link": "/social-media-marketing"
   }
 ]

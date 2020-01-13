@@ -76,6 +76,8 @@ export default () => {
 }
 
 const Contact = styled.section`
+  margin: 0 auto;
+  max-width: 1280px;
   text-align: center;
   h3 {
     margin: 0 auto;
@@ -99,6 +101,7 @@ const Contact = styled.section`
       textarea {
         border: 1px solid #d3d3d3;
         border-radius: 10px;
+        margin-top: 10px;
         margin-bottom: 50px;
         padding: 20px 25px;
         ::placeholder {

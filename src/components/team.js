@@ -34,7 +34,7 @@ export default () => {
       <h3>
         <FormattedMessage id="ourTeamDescription" />
       </h3>
-      <ScrollContainer nativeMobileScroll={false} className="cards">
+      <ScrollContainer className="cards">
         {data.allTeamJson.edges.map(card => (
           <TeamCard
             key={card.node.key}

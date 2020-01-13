@@ -13,8 +13,8 @@
   "header-p2": "We help build brands, find future loyal customers for you, and help keep your business relevant online.",
   "bt-contact": "Contact us",
   "servicesDescription": "We provide top quality services in every major aspect of your online presence",
-  "seo": "Search Engine Optimization",
-  "seoContent": "We can optimize websites using repeatedly proven practices in a way that helps drive targeted traffic to your business via “organic” search results. We make your website easier for search engine to find and serve to visitors who are interested in your business.",
+  "webdev": "Web Development",
+  "webdevContent": "We can optimize websites using repeatedly proven practices in a way that helps drive targeted traffic to your business via “organic” search results. We make your website easier for search engine to find and serve to visitors who are interested in your business.",
   "design": "Design",
   "designContent": "We offer a team of professionals in various areas of design, ranging from product design to UX/UI design to branding and website design. We design in a clean and modern way with a pleasant aesthetic which can greatly improve engagement with visitors.",
   "social": "Social Media Marketing",
@@ -29,7 +29,7 @@
   },
   "bella": {
     "name": "Bella Summer",
-    "title1": "CTO,",
+    "title1": "CFO,",
     "title2": "Client Relationship Manager",
     "description": "Empty."
   },
