@@ -25,37 +25,37 @@
     "name": "Milan Mandic",
     "title1": "CEO,",
     "title2": "Founder",
-    "description": "Empty."
+    "description": "Accomplished marketing veteran with great international experience in various marketing and leadership operations including multi-channel product distribution and marketing involving both start-ups and large companies. Milan is a results-oriented, decisive leader with proven success in marketing and leadership."
   },
   "bella": {
     "name": "Bella Summer",
     "title1": "CFO,",
     "title2": "Client Relationship Manager",
-    "description": "Empty."
-  },
-  "bojan": {
-    "name": "Bojan Smiljanic",
-    "title1": "Industrial Designer,",
-    "title2": "Crowdfunding Specialist",
-    "description": "Product designer for almost 15 years, Bojan was involved with many clients and companies providing conceptual and full product development service delivering fresh solutions for everyday products."
-  },
-  "njegos": {
-    "name": "Njegos Vujovic",
-    "title1": "Web Developer,",
-    "title2": "UX/UI designer",
-    "description": "Experienced with on-site and remote work for agencies, consulted for startups, worked on digital products for business and consumer use alike. With experience working alone, in small and big teams, Njegos is a good fit for any web project."
+    "description": "With her thorough knowledge of research, development and implementation of marketing strategy, {N A M E} focuses on business development efforts and works on streamlining the communication between the clients and the Agency."
   },
   "cobain": {
-    "name": "Kurt Cobain",
-    "title1": "Client Services Manager,",
+    "name": "Shàng Qí",
+    "title1": "Senior Marketing Manager,",
     "title2": "HR",
-    "description": "Empty."
+    "description": "With more than five years in the E-commerce industry, expertise in corporate management, branding and client relationship management, Shàng Qí is always committed to provide top quality marketing services."
   },
   "dusan": {
     "name": "Dusan Copic",
     "title1": "Web Marketing Coordinator,",
     "title2": "Web Developer",
     "description": "An experienced web marketing coordinator, Dusan has a substantial experience working in the western market. With the skill and knowledge of marketing, SEO and web development, he can be a huge asset for anyone looking to make their brand stand out."
+  },
+  "bojan": {
+    "name": "Bojan Smiljanic",
+    "title1": "Product design and",
+    "title2": "Marketing consultant",
+    "description": "With a 15 year experience in both product product design and marketing, Bojan was involved with many clients and companies providing conceptual and full product development service and marketing, delivering fresh solutions for everyday products."
+  },
+  "njegos": {
+    "name": "Njegos Vujovic",
+    "title1": "Web Development and",
+    "title2": "UX/UI design consultant",
+    "description": "Experienced with on-site and remote work for agencies, consulted for startups, worked on digital products for business and consumer use alike. With experience working alone, in small and big teams, Njegos is a good fit for any web project."
   },
   "contactUs": "Contact Us",
   "contactDescription": "Interested in what we have to offer? Send us an email and we'll get back to you soon!",

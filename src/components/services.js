@@ -63,6 +63,7 @@ const Services = styled.section`
   .cards {
     display: flex;
     justify-content: space-around;
+    margin-right: 20px;
     padding: 75px 0 5px 0;
   }
   @media screen and (max-width: 768px) {

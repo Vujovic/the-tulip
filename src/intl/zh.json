@@ -25,37 +25,37 @@
     "name": "Milan Mandic",
     "title1": "CEO,",
     "title2": "创办人",
-    "description": "Empty."
+    "description": "资深市场营销专家，在各种市场营销和领导力运营方面拥有丰富的国际经验，包括涉及初创企业和大型公司的多渠道产品分销和市场营销。 Milan是一位注重结果的果断领导者，在市场营销和领导力方面已取得成功。"
   },
   "bella": {
     "name": "Bella Summer",
     "title1": "CFO,",
     "title2": "客户关系经理",
-    "description": "Empty."
-  },
-  "bojan": {
-    "name": "Bojan Smiljanic",
-    "title1": "工业设计师,",
-    "title2": "众筹专家",
-    "description": "Bojan是产品设计师近15年，曾与许多客户和公司合作，提供概念性和完整的产品开发服务，为日常产品提供新鲜的解决方案。"
-  },
-  "njegos": {
-    "name": "Njegos Vujovic",
-    "title1": "Web开发人员,",
-    "title2": "UX / UI设计器",
-    "description": "具有代理机构的现场和远程工作经验，曾为初创公司提供咨询，曾为企业和消费者使用数字产品。 Njegos凭借在大型和小型团队中独自工作的经验，非常适合任何Web项目。"
+    "description": "{N A M E}凭借对研究，开发和实施营销策略的透彻了解，专注于业务发展工作，并致力于简化客户与代理商之间的沟通。"
   },
   "cobain": {
-    "name": "Kurt Cobain",
+    "name": "尚齐",
     "title1": "客户服务经理,",
     "title2": "人力资源",
-    "description": "Empty."
+    "description": "凭借在电子商务行业超过五年的经验，在企业管理，品牌和客户关系管理方面的专业知识，尚齐始终致力于提供最优质的营销服务。"
   },
   "dusan": {
     "name": "Dusan Copic",
     "title1": "网络营销协调员,",
     "title2": "Web开发人员",
     "description": "作为一名经验丰富的网络营销协调员，Dusan在西方市场上有丰富的经验。 凭借营销，SEO和网站开发的技能和知识，Dusan可以成为任何想要使自己的品牌脱颖而出的人的巨大资产。"
+  },
+  "bojan": {
+    "name": "Bojan Smiljanic",
+    "title1": "工业设计师,",
+    "title2": "众筹专家",
+    "description": "Bojan在产品产品设计和市场营销方面拥有15年的经验，曾与许多客户和公司合作，提供概念性和全面的产品开发服务和市场营销，为日常产品提供新鲜的解决方案。"
+  },
+  "njegos": {
+    "name": "Njegos Vujovic",
+    "title1": "Web开发人员,",
+    "title2": "UX / UI设计器",
+    "description": "具有代理机构的现场和远程工作经验，曾为初创公司提供咨询，曾为企业和消费者使用数字产品。 Njegos凭借在大型和小型团队中独自工作的经验，非常适合任何Web项目。"
   },
   "contactUs": "联系我们",
   "contactDescription": "对我们提供的产品感兴趣？ 给我们发送电子邮件，我们会尽快回复您！",

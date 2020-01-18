@@ -14,14 +14,14 @@ export default () => (
     <div className="links">
       <h5>Services we provide: </h5>
       <div className="urls">
-        <Link to="/seo">
-          <Triangle /> SEO Services
-        </Link>
-        <Link to="/seo">
-          <Triangle /> Design
-        </Link>
-        <Link to="/seo">
+        <Link to="/social-media-marketing">
           <Triangle /> Social Media Marketing
+        </Link>
+        <Link to="/webdev">
+          <Triangle /> Web Development
+        </Link>
+        <Link to="/design">
+          <Triangle /> Design
         </Link>
       </div>
     </div>

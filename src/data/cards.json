@@ -1,12 +1,12 @@
 [
   {
-    "bg": "#FFEFEF",
-    "icon": "../images/services/seo.png",
-    "title": "social",
-    "content": "socialContent",
-    "btnColor": "#DA6D6D",
-    "key": "social",
-    "link": "/social-media-marketing"
+    "bg": "#EFFAF5",
+    "icon": "../images/services/design.png",
+    "title": "design",
+    "content": "designContent",
+    "btnColor": "#378663",
+    "key": "design",
+    "link": "/design"
   },
   {
     "bg": "#E3F2FF",
@@ -18,12 +18,12 @@
     "link": "/webdev"
   },
   {
-    "bg": "#EFFAF5",
-    "icon": "../images/services/design.png",
-    "title": "design",
-    "content": "designContent",
-    "btnColor": "#378663",
-    "key": "design",
-    "link": "/design"
+    "bg": "#FFEFEF",
+    "icon": "../images/services/seo.png",
+    "title": "social",
+    "content": "socialContent",
+    "btnColor": "#DA6D6D",
+    "key": "social",
+    "link": "/social-media-marketing"
   }
 ]
