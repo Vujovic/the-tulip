@@ -24,6 +24,7 @@
     "react-dom": "^16.11.0",
     "react-helmet": "^5.2.1",
     "react-indiana-drag-scroll": "^1.4.2",
+    "smooth-scroll": "^16.1.1",
     "styled-components": "^4.4.0"
   },
   "devDependencies": {
