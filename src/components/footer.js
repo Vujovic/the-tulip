@@ -14,8 +14,8 @@ export default () => (
     <div className="links">
       <h5>Services we provide: </h5>
       <div className="urls">
-        <Link to="/social-media-marketing">
-          <Triangle /> Social Media Marketing
+        <Link to="/crowdfunding-marketing">
+          <Triangle /> Crowdfunding & Marketing
         </Link>
         <Link to="/webdev">
           <Triangle /> Web Development

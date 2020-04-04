@@ -17,7 +17,7 @@
   "webdevContent": "We can optimize websites using repeatedly proven practices in a way that helps drive targeted traffic to your business via “organic” search results. We make your website easier for search engine to find and serve to visitors who are interested in your business.",
   "design": "Design",
   "designContent": "We offer a team of professionals in various areas of design, ranging from product design to UX/UI design to branding and website design. We design in a clean and modern way with a pleasant aesthetic which can greatly improve engagement with visitors.",
-  "social": "Social Media Marketing",
+  "social": "Crowdfunding & Marketing",
   "socialContent": "Social Media helps drive traffic to your website, increases sales, helps build an audience who are likely to use your product and so much more. We can manage your social media with designing and upgrading your profile page, creating relevant posts...",
   "ourTeam": "Our Team",
   "ourTeamDescription": "Meet our passionate team of professionals who are always ready to help you achieve your goals",
@@ -67,6 +67,20 @@
   "formSubjectPlaceholder": "Enter the subject of your message...",
   "formMessage": "Message",
   "formMessagePlaceholder": "Tell us a bit about your project...",
+
+  "designPage": "Design",
+  "designFeature1": "Product design",
+  "designFeature2": "Branding",
+  "designFeature3": "UX/UI design",
+
+  "developmentPage": "Web Development",
+  "developmentFeature1": "Modern",
+  "developmentFeature2": "Responsive",
+  "developmentFeature3": "Blazing fast",
+
+  "cmPage": "Crowdfunding & Marketing",
+  "cmFeature1": "Crowdfunding",
+  "cmFeature2": "Social Media Marketing",
 
   "notfound": {
     "header": "NOT FOUND",

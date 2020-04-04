@@ -68,6 +68,20 @@
   "formMessage": "信息",
   "formMessagePlaceholder": "告诉我们您的项目...",
 
+  "designPage": "Design",
+  "designFeature1": "Product design",
+  "designFeature2": "Branding",
+  "designFeature3": "UX/UI design",
+
+  "developmentPage": "Web Development",
+  "developmentFeature1": "Modern",
+  "developmentFeature2": "Responsive",
+  "developmentFeature3": "Blazing fast",
+
+  "cmPage": "Crowdfunding & Marketing",
+  "cmFeature1": "Crowdfunding",
+  "cmFeature2": "Social Media Marketing",
+
   "notfound": {
     "header": "NOT FOUND",
     "description": "You just hit a route that doesn't exist... the sadness."
