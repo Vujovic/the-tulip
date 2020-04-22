@@ -1,21 +1,26 @@
 import React from 'react'
+import { useIntl } from 'gatsby-plugin-intl'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
 
-export default props => (
-  <Card>
-    <div className="image">
-      <Img draggable={false} fluid={props.image} />
-    </div>
-    <h4>{props.name}</h4>
-    <h5>{props.title1}</h5>
-    <h5>{props.title2}</h5>
-    <p>{props.description}</p>
-    <a href={props.link} target="_blank" rel="noopener noreferrer">
-      Learn more
-    </a>
-  </Card>
-)
+export default props => {
+  const intl = useIntl()
+
+  return (
+    <Card>
+      <div className="image">
+        <Img draggable={false} fluid={props.image} />
+      </div>
+      <h4>{props.name}</h4>
+      <h5>{props.title1}</h5>
+      <h5>{props.title2}</h5>
+      <p>{props.description}</p>
+      <a href={props.link} target="_blank" rel="noopener noreferrer">
+        {intl.formatMessage({ id: 'learnMore' })}
+      </a>
+    </Card>
+  )
+}
 
 const Card = styled.div`
   background-color: #fff;

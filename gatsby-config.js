@@ -7,6 +7,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify`,
+    `gatsby-plugin-netlify-cache`,
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,

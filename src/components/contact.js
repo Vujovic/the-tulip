@@ -68,7 +68,11 @@ export default () => {
             placeholder={intl.formatMessage({ id: 'formMessagePlaceholder' })}
             required
           />
-          <input className="formButton" type="submit" value="Send message" />
+          <input
+            className="formButton"
+            type="submit"
+            value={intl.formatMessage({ id: 'bt-sendMsg' })}
+          />
         </form>
       </div>
     </Contact>

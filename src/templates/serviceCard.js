@@ -1,9 +1,12 @@
 import React from 'react'
+import { useIntl } from 'gatsby-plugin-intl'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 
 export default props => {
+  const intl = useIntl()
+
   const Card = styled.div`
     background-color: ${props.bg};
     padding: 20px 0;
@@ -43,7 +46,7 @@ export default props => {
       </div>
       <h3>{props.title}</h3>
       <p>{props.text}</p>
-      <Link to={props.link}>Learn more</Link>
+      <Link to={props.link}>{intl.formatMessage({ id: 'learnMore' })}</Link>
     </Card>
   )
 }

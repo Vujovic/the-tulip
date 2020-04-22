@@ -12,7 +12,10 @@
   "header-p1": "在The Tulip，我们提供全面的数字营销服务，这将大大提高您品牌的在线形象",
   "header-p2": "我们帮助建立品牌，为您寻找未来的忠实客户，并帮助您保持业务在线相关性",
   "bt-contact": "联系我们",
+  "bt-call": "联系我们",
+  "bt-sendMsg": "联系我们",
   "servicesDescription": "我们在您在线业务的各个主要方面提供最优质的服务",
+  "learnMore": "联系我们",
   "webdev": "Web开发",
   "webdevContent": "我们可以使用经过反复验证的做法来优化网站，以通过“有机”搜索结果帮助将目标流量吸引到您的企业。 我们使您的网站更容易被搜索引擎找到并向对您的业务感兴趣的访问者提供服务。",
   "design": "设计",
@@ -81,6 +84,9 @@
   "cmPage": "Crowdfunding & Marketing",
   "cmFeature1": "Crowdfunding",
   "cmFeature2": "Social Media Marketing",
+
+  "footerServices": "Services we provide",
+  "copyright": "Copyright &copy; 2019 The Tulip Agency",
 
   "notfound": {
     "header": "NOT FOUND",

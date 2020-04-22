@@ -12,9 +12,12 @@
   "header-p1": "At The Tulip, we offer full digital marketing services which will greatly boost your brand’s online presence and help you achieve your goals.",
   "header-p2": "We help build brands, find future loyal customers for you, and help keep your business relevant online.",
   "bt-contact": "Contact us",
+  "bt-call": "Schedule a free call",
+  "bt-sendMsg": "Send message",
   "servicesDescription": "We provide top quality services in every major aspect of your online presence",
+  "learnMore": "Learn more",
   "webdev": "Web Development",
-  "webdevContent": "We can optimize websites using repeatedly proven practices in a way that helps drive targeted traffic to your business via “organic” search results. We make your website easier for search engine to find and serve to visitors who are interested in your business.",
+  "webdevContent": "We can optimize websites using repeatedly proven practices in a way that helps drive targeted traffic to your business via “organic” search results. We make your website easier for search engines to find and serve to visitors who are interested in your business.",
   "design": "Design",
   "designContent": "We offer a team of professionals in various areas of design, ranging from product design to UX/UI design to branding and website design. We design in a clean and modern way with a pleasant aesthetic which can greatly improve engagement with visitors.",
   "social": "Crowdfunding & Marketing",
@@ -81,6 +84,9 @@
   "cmPage": "Crowdfunding & Marketing",
   "cmFeature1": "Crowdfunding",
   "cmFeature2": "Social Media Marketing",
+
+  "footerServices": "Services we provide",
+  "copyright": "Copyright &copy; 2019 The Tulip Agency",
 
   "notfound": {
     "header": "NOT FOUND",

@@ -1,32 +1,36 @@
 import React from 'react'
+import { useIntl } from 'gatsby-plugin-intl'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 
 import Logo from './logo'
 import Triangle from './svg/triangle'
 
-export default () => (
-  <Footer>
-    <div className="logo">
-      <Logo />
-      <p>Copyright &copy; 2019 The Tulip Agency</p>
-    </div>
-    <div className="links">
-      <h5>Services we provide: </h5>
-      <div className="urls">
-        <Link to="/crowdfunding-marketing">
-          <Triangle /> Crowdfunding & Marketing
-        </Link>
-        <Link to="/webdev">
-          <Triangle /> Web Development
-        </Link>
-        <Link to="/design">
-          <Triangle /> Design
-        </Link>
+export default () => {
+  const intl = useIntl()
+  return (
+    <Footer>
+      <div className="logo">
+        <Logo />
+        <p>Copyright &copy; 2019 The Tulip Agency</p>
       </div>
-    </div>
-  </Footer>
-)
+      <div className="links">
+        <h5>Services we provide: </h5>
+        <div className="urls">
+          <Link to="/crowdfunding-marketing">
+            <Triangle /> {intl.formatMessage({ id: 'social' })}
+          </Link>
+          <Link to="/webdev">
+            <Triangle /> {intl.formatMessage({ id: 'webdev' })}
+          </Link>
+          <Link to="/design">
+            <Triangle /> {intl.formatMessage({ id: 'design' })}
+          </Link>
+        </div>
+      </div>
+    </Footer>
+  )
+}
 
 const Footer = styled.footer`
   background-color: #434343;

@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useIntl, FormattedMessage } from 'gatsby-plugin-intl'
+import { PopupText, PopupWidget } from 'react-calendly'
 
 import ButtonP from './buttonP'
 import HeroImg from './svg/heroImg'
@@ -22,6 +23,11 @@ export default () => {
         <ButtonP
           message={intl.formatMessage({ id: 'bt-contact' })}
           link={`/${intl.formatMessage({ id: 'lang' })}/#contact`}
+        />
+        <PopupWidget
+          color="#F97C7C"
+          text={intl.formatMessage({ id: 'bt-call' })}
+          url="https://calendly.com/the-tulip/30-min-call"
         />
       </div>
       <HeroImg />

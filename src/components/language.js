@@ -42,6 +42,7 @@ const LangBar = styled.div`
     border: none;
     border-radius: 50px;
     cursor: pointer;
+    line-height: 16px;
     font-size: 14px;
     font-weight: 600;
     height: 100%;
