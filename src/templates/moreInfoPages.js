@@ -1,14 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import { useIntl } from 'gatsby-plugin-intl'
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
 import Check from '../components/svg/check'
 
 export default props => {
-  const intl = useIntl()
-
   const Description = styled.section`
     display: flex;
     align-items: center;
@@ -52,30 +47,27 @@ export default props => {
   `
 
   return (
-    <Layout>
-      <SEO lang={intl.locale} title={intl.formatMessage({ id: props.title })} />
-      <Description>
-        <div className="text">
-          <h1>{props.h1}</h1>
-          <p>{props.info}</p>
-          <ul>
+    <Description>
+      <div className="text">
+        <h1>{props.h1}</h1>
+        <p>{props.info}</p>
+        <ul>
+          <li>
+            <Check /> {props.feature1}
+          </li>
+          <li>
+            <Check /> {props.feature2}
+          </li>
+          {props.feature3 ? (
             <li>
-              <Check /> {props.feature1}
+              <Check /> {props.feature3}
             </li>
-            <li>
-              <Check /> {props.feature2}
-            </li>
-            {props.feature3 ? (
-              <li>
-                <Check /> {props.feature3}
-              </li>
-            ) : (
-              ''
-            )}
-          </ul>
-        </div>
-        <div className="illustration">{props.illustration}</div>
-      </Description>
-    </Layout>
+          ) : (
+            ''
+          )}
+        </ul>
+      </div>
+      <div className="illustration">{props.illustration}</div>
+    </Description>
   )
 }

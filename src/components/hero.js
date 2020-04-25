@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useIntl, FormattedMessage } from 'gatsby-plugin-intl'
-import { PopupText, PopupWidget } from 'react-calendly'
+import { PopupWidget } from 'react-calendly'
 
 import ButtonP from './buttonP'
 import HeroImg from './svg/heroImg'
@@ -19,6 +19,9 @@ export default () => {
         </p>
         <p>
           <FormattedMessage id="header-p2" />
+        </p>
+        <p>
+          <FormattedMessage id="header-p3" />
         </p>
         <ButtonP
           message={intl.formatMessage({ id: 'bt-contact' })}
