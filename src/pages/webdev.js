@@ -56,21 +56,21 @@ export default () => {
       <Cards>
         <Card
           image={data.seo.childImageSharp.fluid}
-          title="SEO friendly"
-          desc1="Have an idea about a product but need help with creating it? Look no further, because we can offer experts to work with you and help you realize your idea from start to finish."
-          desc2="We offer doing market research, identifying problems, product development, designing informed solutions—and everything in between."
+          title={intl.formatMessage({ id: 'developmentFeature1' })}
+          desc1={intl.formatMessage({ id: 'seoDesc1' })}
+          desc2={intl.formatMessage({ id: 'seoDesc2' })}
         />
         <Card
           image={data.responsive.childImageSharp.fluid}
-          title="Responsive"
-          desc1="Branding is very important because to your bussiness because of the overall impact it makes on your company. Branding can change how people perceive your brand, it can drive new business and increase brand awareness."
-          desc2="If you need help with rebranding your company or assist you with branding from the ground up, we got you covered."
+          title={intl.formatMessage({ id: 'developmentFeature2' })}
+          desc1={intl.formatMessage({ id: 'responsiveDesc1' })}
+          desc2={intl.formatMessage({ id: 'responsiveDesc2' })}
         />
         <Card
           image={data.fast.childImageSharp.fluid}
-          title="Fast"
-          desc1="UX design refers to user experience design, while UI design stands for user interface design. Both of these are crucial to an IT product and need to work closely together."
-          desc2="We offer competitor and customer analysis, product structure and strategy, content development, wireframing, prototyping, etc."
+          title={intl.formatMessage({ id: 'developmentFeature3' })}
+          desc1={intl.formatMessage({ id: 'fastDesc1' })}
+          desc2={intl.formatMessage({ id: 'fastDesc2' })}
         />
       </Cards>
     </Layout>

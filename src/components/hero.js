@@ -20,9 +20,6 @@ export default () => {
         <p>
           <FormattedMessage id="header-p2" />
         </p>
-        <p>
-          <FormattedMessage id="header-p3" />
-        </p>
         <ButtonP
           message={intl.formatMessage({ id: 'bt-contact' })}
           link={`/${intl.formatMessage({ id: 'lang' })}/#contact`}

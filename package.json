@@ -2,7 +2,7 @@
   "name": "the-tulip.com",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
+  "version": "0.7.0",
   "author": "Njegos Vujovic <hello@njegos.dev>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
