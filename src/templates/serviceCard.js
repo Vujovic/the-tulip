@@ -3,11 +3,13 @@ import { useIntl } from 'gatsby-plugin-intl'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
+import ScrollAnimation from 'react-animate-on-scroll'
+import 'animate.css/animate.min.css'
 
 export default props => {
   const intl = useIntl()
 
-  const Card = styled.div`
+  const Card = styled(ScrollAnimation)`
     background-color: ${props.bg};
     padding: 20px 0;
     width: 25%;
@@ -40,7 +42,7 @@ export default props => {
     }
   `
   return (
-    <Card>
+    <Card animateIn="fadeInUp" delay={props.delay} animateOnce>
       <div className="icon">
         <Img draggable={false} fluid={props.image} />
       </div>

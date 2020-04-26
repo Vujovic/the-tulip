@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import { useStaticQuery, graphql } from 'gatsby'
 import { FormattedMessage } from 'gatsby-plugin-intl'
+import ScrollAnimation from 'react-animate-on-scroll'
+import 'animate.css/animate.min.css'
 
 import Card from '../templates/serviceCard'
 
@@ -31,14 +33,16 @@ export default () => {
   `)
   return (
     <Services id="services">
-      <h2>
-        <FormattedMessage id="services" />
-      </h2>
-      <h3>
-        <FormattedMessage id="servicesDescription" />
-      </h3>
+      <ScrollAnimation animateIn="fadeInUp" animateOnce>
+        <h2>
+          <FormattedMessage id="services" />
+        </h2>
+        <h3>
+          <FormattedMessage id="servicesDescription" />
+        </h3>
+      </ScrollAnimation>
       <div className="cards">
-        {data.allCardsJson.edges.map(card => (
+        {data.allCardsJson.edges.map((card, index) => (
           <Card
             key={card.node.key}
             title={<FormattedMessage id={card.node.title} />}
@@ -47,6 +51,7 @@ export default () => {
             btnColor={card.node.btnColor}
             link={card.node.link}
             image={card.node.icon.childImageSharp.fluid}
+            delay={100 * index}
           />
         ))}
       </div>
