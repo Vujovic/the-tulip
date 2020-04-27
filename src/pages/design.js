@@ -67,12 +67,14 @@ export default props => {
           title={intl.formatMessage({ id: 'designFeature2' })}
           desc1={intl.formatMessage({ id: 'brandingDesc1' })}
           desc2={intl.formatMessage({ id: 'brandingDesc2' })}
+          delay={100}
         />
         <Card
           image={data.uxUi.childImageSharp.fluid}
           title={intl.formatMessage({ id: 'designFeature3' })}
           desc1={intl.formatMessage({ id: 'uxuiDesc1' })}
           desc2={intl.formatMessage({ id: 'uxuiDesc2' })}
+          delay={200}
         />
       </Cards>
     </Layout>

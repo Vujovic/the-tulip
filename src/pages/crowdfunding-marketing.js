@@ -54,6 +54,7 @@ export default () => {
           title={intl.formatMessage({ id: 'cmFeature2' })}
           desc1={intl.formatMessage({ id: 'smmDesc1' })}
           desc2={intl.formatMessage({ id: 'smmDesc2' })}
+          delay={100}
         />
       </Cards>
     </Layout>

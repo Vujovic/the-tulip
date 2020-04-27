@@ -65,12 +65,14 @@ export default () => {
           title={intl.formatMessage({ id: 'developmentFeature2' })}
           desc1={intl.formatMessage({ id: 'responsiveDesc1' })}
           desc2={intl.formatMessage({ id: 'responsiveDesc2' })}
+          delay={100}
         />
         <Card
           image={data.fast.childImageSharp.fluid}
           title={intl.formatMessage({ id: 'developmentFeature3' })}
           desc1={intl.formatMessage({ id: 'fastDesc1' })}
           desc2={intl.formatMessage({ id: 'fastDesc2' })}
+          delay={200}
         />
       </Cards>
     </Layout>

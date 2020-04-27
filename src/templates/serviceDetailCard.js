@@ -1,10 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
+import ScrollAnimation from 'react-animate-on-scroll'
+import 'animate.css/animate.min.css'
 
 export default props => {
   return (
-    <Card>
+    <Card animateIn="fadeInUp" delay={props.delay} animateOnce>
       <div className="icon">
         <Img draggable={false} fluid={props.image} />
       </div>
@@ -15,7 +17,7 @@ export default props => {
   )
 }
 
-const Card = styled.div`
+const Card = styled(ScrollAnimation)`
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
   margin: 20px;
   padding: 20px;

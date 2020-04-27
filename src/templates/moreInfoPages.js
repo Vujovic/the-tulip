@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import ScrollAnimation from 'react-animate-on-scroll'
+import 'animate.css/animate.min.css'
 
 import Check from '../components/svg/check'
 
@@ -49,25 +51,37 @@ export default props => {
   return (
     <Description>
       <div className="text">
-        <h1>{props.h1}</h1>
-        <p>{props.info}</p>
-        <ul>
-          <li>
-            <Check /> {props.feature1}
-          </li>
-          <li>
-            <Check /> {props.feature2}
-          </li>
-          {props.feature3 ? (
+        <ScrollAnimation animateIn="fadeInUp" animateOnce>
+          <h1>{props.h1}</h1>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" animateOnce>
+          <p>{props.info}</p>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" animateOnce>
+          <ul>
             <li>
-              <Check /> {props.feature3}
+              <Check /> {props.feature1}
             </li>
-          ) : (
-            ''
-          )}
-        </ul>
+            <li>
+              <Check /> {props.feature2}
+            </li>
+            {props.feature3 ? (
+              <li>
+                <Check /> {props.feature3}
+              </li>
+            ) : (
+              ''
+            )}
+          </ul>
+        </ScrollAnimation>
       </div>
-      <div className="illustration">{props.illustration}</div>
+      <ScrollAnimation
+        className="illustration"
+        animateIn="fadeInRight"
+        animateOnce
+      >
+        {props.illustration}
+      </ScrollAnimation>
     </Description>
   )
 }
