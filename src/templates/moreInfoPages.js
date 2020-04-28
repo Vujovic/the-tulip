@@ -9,7 +9,7 @@ export default props => {
   const Description = styled.section`
     display: flex;
     align-items: center;
-    margin: 100px 0;
+    margin-top: 75px;
     padding: 0 100px;
     .text {
       flex: 1;

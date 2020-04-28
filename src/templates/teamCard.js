@@ -14,7 +14,7 @@ export default props => {
       <h4>{props.name}</h4>
       <h5>{props.title1}</h5>
       <h5>{props.title2}</h5>
-      <p>{props.description}</p>
+      <p className="desc">{props.description}</p>
       <a href={props.link} target="_blank" rel="noopener noreferrer">
         {intl.formatMessage({ id: 'learnMore' })}
       </a>
@@ -25,7 +25,6 @@ export default props => {
 const Card = styled.div`
   background-color: #fff;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.15);
-  height: 500px;
   width: 350px;
   margin: 0 40px;
   padding-bottom: 20px;
@@ -55,9 +54,9 @@ const Card = styled.div`
   a {
     font-size: 18px;
     font-weight: 600;
+    margin-top: 10px;
   }
   @media screen and (max-width: 768px) {
-    height: 100%;
     max-width: 225px;
     margin: 0 20px;
     .image {

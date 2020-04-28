@@ -74,6 +74,7 @@ const Services = styled.section`
   @media screen and (max-width: 768px) {
     .cards {
       flex-direction: column;
+      margin-right: 0;
     }
   }
 `
