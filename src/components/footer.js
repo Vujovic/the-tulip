@@ -12,7 +12,7 @@ export default () => {
     <Footer>
       <div className="logo">
         <Logo />
-        <p>Copyright &copy; 2019 The Tulip Agency</p>
+        <p>{intl.formatMessage({ id: 'copyright' })}</p>
       </div>
       <div className="links">
         <h5>Services we provide: </h5>
