@@ -16,7 +16,7 @@ export default () => {
           node {
             image {
               childImageSharp {
-                fluid(quality: 100) {
+                fluid(maxWidth: 180, maxHeight: 180, quality: 100) {
                   ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }

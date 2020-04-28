@@ -21,7 +21,7 @@ export default () => {
             link
             icon {
               childImageSharp {
-                fluid(quality: 100) {
+                fluid(maxWidth: 280, quality: 100) {
                   ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }

@@ -123,8 +123,12 @@ const Contact = styled.section`
       .formButton {
         background-color: #f97c7c;
         color: #eee;
+        cursor: pointer;
         font-size: 18px;
         font-weight: 700;
+        :hover {
+          background-color: #d46a6a;
+        }
       }
     }
   }

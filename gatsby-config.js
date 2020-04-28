@@ -3,11 +3,14 @@ module.exports = {
     title: `The Tulip marketing agency`,
     description: `Full digital marketing services. We help build brands, find future loyal customers for you, and help keep your business relevant online.`,
     author: `https://njegos.dev`,
+    siteUrl: `https://www.the-tulip.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify`,
     `gatsby-plugin-netlify-cache`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -22,6 +25,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-plugin-purgecss`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-styled-components`,
