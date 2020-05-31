@@ -63,6 +63,7 @@ const Hero = styled.section`
   }
   @media screen and (max-width: 1024px) {
     flex-direction: column;
+    overflow-x: hidden;
     .info {
       width: 60%;
     }
